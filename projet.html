@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amulette Viking</title>
     <link rel="stylesheet" href="style/style.css">
-    <link rel="shortcut icon" href="ressource/index/logo.png">
+    <link rel="shortcut icon" href="ressource/logo.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r126/three.min.js" integrity="sha512-n8IpKWzDnBOcBhRlHirMZOUvEq2bLRMuJGjuVqbzUJwtTsgwOgK5aS0c1JA647XWYfqvXve8k3PtZdzpipFjgg==" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/three@0.126.0/examples/js/loaders/GLTFLoader.js"></script>
 </head>
 <body>
     <div>
@@ -31,12 +33,10 @@
                 <!--Threejs-->
                 <div id="main">
                     <!--Objet 3D ici-->
-                    <div>
-
-                    </div>
-                    <div>
+                    <div id="scene"></div>
+                    <div id="sceneInfo">
                         <h3>Viking Amulet</h3>
-                        <p>XXXX-XXXX</p>
+                        <p>~793-822</p>
                         <p>Mjöllnir Hammer</p>
                     </div>
                 </div>
@@ -51,45 +51,46 @@
                 <div id="footer">
                     <div>
                         <a href="">
-                            <img src="ressource/index/Circled Envelope.svg" alt="mail">
+                            <img src="ressource/Circled Envelope.svg" alt="mail">
                             <p>yan.nw.77185@gmail.com</p>
                         </a>
-                        <a href="">
-                            <img src="ressource/index/LinkedIn Circled.svg" alt="linkedin">
+                        <a href="https://www.linkedin.com/in/yaniswong04/" target="_blank">
+                            <img src="ressource/LinkedIn Circled.svg" alt="linkedin">
                             <p>Yanis WONG</p>
                         </a>
-                        <a href="">
-                            <img src="ressource/index/GitHub.svg" alt="GitHub">
+                        <a href="https://github.com/CiaoNw" target="_blank">
+                            <img src="ressource/GitHub.svg" alt="GitHub">
                             <p>CiaoNw</p>
                         </a>
-                        <a href="">
+                        <a href="ressource/Yanis_Wong_CV.pdf" target="_blank">
                             <p>CV Yanis WONG</p>
                         </a>
                     </div>
                     <div>
-                        <a href="">
-                            <img src="ressource/index/Circled Envelope.svg" alt="mail">
+                        <a href="mailto:raphaelcadete04@gmail.com">
+                            <img src="ressource/Circled Envelope.svg" alt="mail">
                             <p>raphaelcadete04@gmail.com</p>
                         </a>
-                        <a href="">
-                            <img src="ressource/index/LinkedIn Circled.svg" alt="linkedin">
+                        <a href="https://www.linkedin.com/in/raphaelcadete/" target="_blank">
+                            <img src="ressource/LinkedIn Circled.svg" alt="linkedin">
                             <p>Raphael Cadete</p>
                         </a>
-                        <a href="">
-                            <img src="ressource/index/GitHub.svg" alt="GitHub">
-                            <p>MrRaphi</p>
+                        <a href="https://github.com/Raphi04" target="_blank">
+                            <img src="ressource/GitHub.svg" alt="GitHub">
+                            <p>Raphi04</p>
                         </a>
-                        <a href="">
-                            <p>CV Rapahel Cadete</p>
+                        <a href="ressource/Raphael_Cadete_CV.pdf" target="_blank">
+                            <p>CV Raphael Cadete</p>
                         </a>
                     </div>
                 </div>
                 <div id="right">
-                    <p>All Right Reserved Yanis WONG & Raphael Cadete</p>
+                    <p>All Right Reserved Yanis WONG & Raphael CADETE</p>
                 </div>
             </footer>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
             <script src="js/gsap.js"></script>
+            <script type="module" src="js/three.js"></script>
         </div>
     </div>
 </body>
