@@ -374,9 +374,14 @@ footer > h3 {
 
 /*content-3D*/
 
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
 #contento {
-    width: 100%;
-    margin-left: 2%;
+    width: calc(100% - 150px);
+    padding: 0px 75px;
 }
 
 #contento > div {
@@ -408,6 +413,7 @@ footer > h3 {
 
 #main > #sceneInfo {
     margin-left: 35px;
+    width: 35%;
 }
 
 #main > #sceneInfo > h3 {
@@ -418,9 +424,23 @@ footer > h3 {
     margin: 0px;
 }
 
-#contento #des {
-    margin: 35px 0px;
+#contento .des {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#contento .des p {
     font-size: 22px;
+    text-align: justify;
+}
+
+#contento .des p:first-child {
+    margin-top: 35px;
+}
+
+#contento .des p:last-child {
+    margin-bottom: 35px;
 }
 
 /*navbar 2*/
