@@ -456,12 +456,8 @@ footer > h3 {
     flex-direction: column;
     align-items: center;
     border-right: solid white 1px;
-    width: 8.2%;
+    width: 16.67%;
     transition: 0.4s ease;
-}
-
-#navbari:hover {
-    width: 13.2%;
 }
 
 #navbari > div {
