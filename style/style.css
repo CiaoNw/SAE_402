@@ -146,6 +146,7 @@ ul:hover {
 a {
     text-decoration: none;
     color: white;
+    cursor: pointer;
 }
 
 /*Content*/
@@ -422,6 +423,11 @@ footer > h3 {
 
 #main > #sceneInfo > p {
     margin: 0px;
+}
+
+#contento .des h2{
+    font-size: 45px !important;
+    font-family: Poppins !important;
 }
 
 #contento .des {
